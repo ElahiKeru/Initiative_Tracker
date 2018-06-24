@@ -1,0 +1,13 @@
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\bin\Debug\InitiativeTracker.exe.config
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\bin\Debug\InitiativeTracker.exe
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\bin\Debug\InitiativeTracker.pdb
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\bin\Debug\InitiativeEntryLibrary.dll
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\bin\Debug\InitiativeEntryLibrary.pdb
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\obj\Debug\InitiativeTracker.csprojResolveAssemblyReference.cache
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\obj\Debug\InitiativeTracker.Form1.resources
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\obj\Debug\InitiativeTracker.Properties.Resources.resources
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\obj\Debug\InitiativeTracker.csproj.GenerateResource.cache
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\obj\Debug\InitiativeTracker.csproj.CoreCompileInputs.cache
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\obj\Debug\InitiativeTracker.csproj.CopyComplete
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\obj\Debug\InitiativeTracker.exe
+F:\Visual Studio Projects\InitiativeTracker\InitiativeTracker\obj\Debug\InitiativeTracker.pdb
