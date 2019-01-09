@@ -43,12 +43,11 @@ namespace InitiativeTracker
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            
             if (InitContainer.SelectedRows.Count > 0)
             {
                 foreach (DataGridViewRow dr in InitContainer.SelectedRows)
                 {
-                    ec.Rows.RemoveAt(dr.Index);
+                    ec.Rows.Remove(((DataRowView)dr.DataBoundItem).Row);
                 }
             }
         }
