@@ -43,11 +43,12 @@ namespace InitiativeTracker
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
+            
             if (InitContainer.SelectedRows.Count > 0)
             {
                 foreach (DataGridViewRow dr in InitContainer.SelectedRows)
                 {
-                    ec.Rows.Remove(ec.Rows[dr.Index]);
+                    ec.Rows.RemoveAt(dr.Index);
                 }
             }
         }
@@ -56,7 +57,7 @@ namespace InitiativeTracker
         {
             if(ec.Rows.Count > 0)
             {
-                InitContainer.DataSource = ec.Sort();
+                InitContainer.Sort(InitContainer.Columns[1], ListSortDirection.Descending);
             }
         }
 
