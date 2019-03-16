@@ -10,3 +10,9 @@ F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\In
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.csproj.CoreCompileInputs.cache
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.dll
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.pdb
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeEntryLibrary\bin\Debug\InitiativeEntryLibrary.dll
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeEntryLibrary\bin\Debug\InitiativeEntryLibrary.pdb
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.csprojAssemblyReference.cache
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.dll
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.pdb

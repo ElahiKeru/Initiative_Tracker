@@ -24,3 +24,16 @@ F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Debug\Initiat
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.csproj.CopyComplete
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.exe
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.pdb
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\bin\Debug\InitiativeTracker.exe.config
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\bin\Debug\InitiativeTracker.exe
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\bin\Debug\InitiativeTracker.pdb
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\bin\Debug\InitiativeEntryLibrary.dll
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\bin\Debug\InitiativeEntryLibrary.pdb
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.csprojAssemblyReference.cache
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.Form1.resources
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.Properties.Resources.resources
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.csproj.GenerateResource.cache
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.csproj.CopyComplete
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.exe
+C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.pdb

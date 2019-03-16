@@ -52,6 +52,14 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
             this.btnSort = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lblPresentCom = new System.Windows.Forms.Label();
+            this.lblRoundCount = new System.Windows.Forms.Label();
+            this.lblTimeElapsed = new System.Windows.Forms.Label();
+            this.btnNextCombatant = new System.Windows.Forms.Button();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.InitContainer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,7 +119,7 @@
             this.txtAC.Location = new System.Drawing.Point(54, 430);
             this.txtAC.Name = "txtAC";
             this.txtAC.Size = new System.Drawing.Size(100, 20);
-            this.txtAC.TabIndex = 5;
+            this.txtAC.TabIndex = 7;
             // 
             // label4
             // 
@@ -127,7 +135,7 @@
             this.txtHP.Location = new System.Drawing.Point(54, 404);
             this.txtHP.Name = "txtHP";
             this.txtHP.Size = new System.Drawing.Size(100, 20);
-            this.txtHP.TabIndex = 7;
+            this.txtHP.TabIndex = 5;
             // 
             // label5
             // 
@@ -227,7 +235,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(622, 402);
+            this.btnAdd.Location = new System.Drawing.Point(526, 375);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 21;
@@ -237,7 +245,7 @@
             // 
             // btnRemove
             // 
-            this.btnRemove.Location = new System.Drawing.Point(622, 428);
+            this.btnRemove.Location = new System.Drawing.Point(526, 404);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(75, 23);
             this.btnRemove.TabIndex = 22;
@@ -247,7 +255,7 @@
             // 
             // btnSort
             // 
-            this.btnSort.Location = new System.Drawing.Point(622, 457);
+            this.btnSort.Location = new System.Drawing.Point(526, 433);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(75, 23);
             this.btnSort.TabIndex = 23;
@@ -255,11 +263,95 @@
             this.btnSort.UseVisualStyleBackColor = true;
             this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
             // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(526, 462);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 24;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(679, 358);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(97, 13);
+            this.label11.TabIndex = 25;
+            this.label11.Text = "Present Combatant";
+            // 
+            // lblPresentCom
+            // 
+            this.lblPresentCom.AutoSize = true;
+            this.lblPresentCom.Location = new System.Drawing.Point(737, 381);
+            this.lblPresentCom.Name = "lblPresentCom";
+            this.lblPresentCom.Size = new System.Drawing.Size(37, 13);
+            this.lblPresentCom.TabIndex = 26;
+            this.lblPresentCom.Text = "(none)";
+            // 
+            // lblRoundCount
+            // 
+            this.lblRoundCount.AutoSize = true;
+            this.lblRoundCount.Location = new System.Drawing.Point(682, 413);
+            this.lblRoundCount.Name = "lblRoundCount";
+            this.lblRoundCount.Size = new System.Drawing.Size(42, 13);
+            this.lblRoundCount.TabIndex = 27;
+            this.lblRoundCount.Text = "Round:";
+            // 
+            // lblTimeElapsed
+            // 
+            this.lblTimeElapsed.AutoSize = true;
+            this.lblTimeElapsed.Location = new System.Drawing.Point(685, 442);
+            this.lblTimeElapsed.Name = "lblTimeElapsed";
+            this.lblTimeElapsed.Size = new System.Drawing.Size(77, 13);
+            this.lblTimeElapsed.TabIndex = 28;
+            this.lblTimeElapsed.Text = "Time Elapsed: ";
+            // 
+            // btnNextCombatant
+            // 
+            this.btnNextCombatant.Location = new System.Drawing.Point(955, 401);
+            this.btnNextCombatant.Name = "btnNextCombatant";
+            this.btnNextCombatant.Size = new System.Drawing.Size(97, 23);
+            this.btnNextCombatant.TabIndex = 29;
+            this.btnNextCombatant.Text = "Next Combatant";
+            this.btnNextCombatant.UseVisualStyleBackColor = true;
+            this.btnNextCombatant.Click += new System.EventHandler(this.btnNextCombatant_Click);
+            // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(955, 375);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.TabIndex = 30;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(955, 458);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 31;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1142, 493);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.btnStart);
+            this.Controls.Add(this.btnNextCombatant);
+            this.Controls.Add(this.lblTimeElapsed);
+            this.Controls.Add(this.lblRoundCount);
+            this.Controls.Add(this.lblPresentCom);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSort);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnAdd);
@@ -318,6 +410,14 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.Button btnSort;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblPresentCom;
+        private System.Windows.Forms.Label lblRoundCount;
+        private System.Windows.Forms.Label lblTimeElapsed;
+        private System.Windows.Forms.Button btnNextCombatant;
+        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 
