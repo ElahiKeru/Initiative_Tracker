@@ -16,7 +16,6 @@ F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\bin\Debug\Initiat
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\bin\Debug\InitiativeTracker.pdb
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\bin\Debug\InitiativeEntryLibrary.dll
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\bin\Debug\InitiativeEntryLibrary.pdb
-F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.csprojResolveAssemblyReference.cache
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.Form1.resources
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.Properties.Resources.resources
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.csproj.GenerateResource.cache
@@ -37,3 +36,4 @@ C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\I
 C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.csproj.CopyComplete
 C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.exe
 C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.pdb
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Debug\InitiativeTracker.csprojAssemblyReference.cache

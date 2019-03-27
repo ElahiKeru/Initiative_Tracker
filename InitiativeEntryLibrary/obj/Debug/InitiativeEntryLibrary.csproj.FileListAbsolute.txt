@@ -6,7 +6,6 @@ F:\Visual Studio Projects\InitiativeTracker\InitiativeEntryLibrary\obj\Debug\Ini
 F:\Visual Studio Projects\InitiativeTracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.pdb
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\bin\Debug\InitiativeEntryLibrary.dll
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\bin\Debug\InitiativeEntryLibrary.pdb
-F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.csprojResolveAssemblyReference.cache
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.csproj.CoreCompileInputs.cache
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.dll
 F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.pdb
@@ -16,3 +15,4 @@ C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeEntryLibrary\obj\De
 C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.dll
 C:\Users\Michael\Desktop\VSProj\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.pdb
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Debug\InitiativeEntryLibrary.csprojAssemblyReference.cache
