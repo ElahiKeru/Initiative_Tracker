@@ -1,0 +1,16 @@
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\InitiativeEntryLibrary.Tests.dll
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\InitiativeEntryLibrary.Tests.pdb
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\InitiativeEntryLibrary.dll
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\Microsoft.ExtendedReflection.dll
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\Microsoft.Pex.Framework.dll
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\System.Data.dll
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\System.Xml.dll
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\Microsoft.ExtendedReflection.Reasoning.dll
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\InitiativeEntryLibrary.pdb
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\bin\Release\Microsoft.Pex.Framework.xml
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\obj\Release\InitiativeEntryLibrary.Tests.csprojAssemblyReference.cache
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\obj\Release\InitiativeEntryLibrary.Tests.csproj.CoreCompileInputs.cache
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\obj\Release\InitiativeEntryLibrary.Tests.csproj.CopyComplete
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\obj\Release\InitiativeEntryLibrary.Tests.dll
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary.Tests\obj\Release\InitiativeEntryLibrary.Tests.pdb

@@ -23,6 +23,9 @@ namespace InitiativeTracker
         int intHold;
         int wisHold;
         int chaHold;
+        int roundCount;
+        int timeCount;
+        int selector;
 
         public Form1()
         {
@@ -33,12 +36,27 @@ namespace InitiativeTracker
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if(ValidateEntry())
+            if (ValidateEntry())
             {
                 ec.Add(new Entity(txtName.Text, initHold, hpHold,
                                   acHold, strHold, dexHold,
                                   conHold, intHold, wisHold, chaHold));
+                ClearTexts();
             }
+        }
+
+        private void ClearTexts()
+        {
+            txtAC.Text = "";
+            txtChaSav.Text = "";
+            txtConSav.Text = "";
+            txtDexSav.Text = "";
+            txtHP.Text = "";
+            txtInit.Text = "";
+            txtIntSav.Text = "";
+            txtName.Text = "";
+            txtStrSav.Text = "";
+            txtWisSav.Text = "";
         }
 
         private void btnRemove_Click(object sender, EventArgs e)
@@ -47,7 +65,7 @@ namespace InitiativeTracker
             {
                 foreach (DataGridViewRow dr in InitContainer.SelectedRows)
                 {
-                    ec.Rows.Remove(ec.Rows[dr.Index]);
+                    ec.Rows.Remove(((DataRowView)dr.DataBoundItem).Row);
                 }
             }
         }
@@ -56,7 +74,7 @@ namespace InitiativeTracker
         {
             if(ec.Rows.Count > 0)
             {
-                InitContainer.DataSource = ec.Sort();
+                InitContainer.Sort(InitContainer.Columns[1], ListSortDirection.Descending);
             }
         }
 
@@ -88,6 +106,53 @@ namespace InitiativeTracker
             }
 
             return validated;
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            InitContainer.Dispose();
+            this.Close();
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            if (InitContainer.Rows.Count > 0)
+            {
+                lblPresentCom.Text = InitContainer["Name", 0].Value.ToString();
+                roundCount = 0;
+                timeCount = 0;
+                selector = 0;
+
+                lblRoundCount.Text = $"Round: {roundCount}";
+                lblTimeElapsed.Text = $"Time Elapsed: {TimeSpan.FromMinutes(timeCount / 60).Minutes:00}:{TimeSpan.FromSeconds(timeCount % 60).Seconds:00}";
+            }
+        }
+
+        private void btnNextCombatant_Click(object sender, EventArgs e)
+        {
+            selector++;
+
+            if(selector > InitContainer.Rows.Count-1)
+            {
+                selector -= InitContainer.Rows.Count;
+                roundCount++;
+                timeCount += 6;
+            }
+            lblPresentCom.Text = InitContainer["Name", selector].Value.ToString();
+            lblRoundCount.Text = $"Round: {roundCount}";
+            lblTimeElapsed.Text = $"Time Elapsed: {TimeSpan.FromMinutes(timeCount/60).Minutes:00}:{TimeSpan.FromSeconds(timeCount%60).Seconds:00}";
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            roundCount = 0;
+            timeCount = 0;
+            selector = 0;
+            ec.Clear();
+            lblPresentCom.Text = "(none)";
+            lblRoundCount.Text = $"Round:";
+            lblTimeElapsed.Text = $"Time Elapsed:";
+            ClearTexts();
         }
     }
 }

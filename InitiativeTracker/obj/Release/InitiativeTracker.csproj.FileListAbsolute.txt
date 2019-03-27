@@ -1,0 +1,13 @@
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\bin\Release\InitiativeTracker.exe.config
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\bin\Release\InitiativeTracker.exe
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\bin\Release\InitiativeTracker.pdb
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\bin\Release\InitiativeEntryLibrary.dll
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\bin\Release\InitiativeEntryLibrary.pdb
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Release\InitiativeTracker.csprojAssemblyReference.cache
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Release\InitiativeTracker.Form1.resources
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Release\InitiativeTracker.Properties.Resources.resources
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Release\InitiativeTracker.csproj.GenerateResource.cache
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Release\InitiativeTracker.csproj.CoreCompileInputs.cache
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Release\InitiativeTracker.csproj.CopyComplete
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Release\InitiativeTracker.exe
+F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeTracker\obj\Release\InitiativeTracker.pdb
