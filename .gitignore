@@ -1,3 +1,5 @@
 
 .vs/
 *.cache
+*.resources
+*.zip
