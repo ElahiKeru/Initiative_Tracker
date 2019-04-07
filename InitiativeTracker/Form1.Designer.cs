@@ -1,6 +1,6 @@
 ﻿namespace InitiativeTracker
 {
-    partial class Form1
+    partial class InitiativeTracker
     {
         /// <summary>
         /// Required designer variable.
@@ -358,7 +358,7 @@
             this.lblCombInd.Size = new System.Drawing.Size(0, 13);
             this.lblCombInd.TabIndex = 33;
             // 
-            // Form1
+            // InitiativeTracker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -397,8 +397,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.InitContainer);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "InitiativeTracker";
+            this.Text = "Initiative Tracker";
             ((System.ComponentModel.ISupportInitialize)(this.InitContainer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

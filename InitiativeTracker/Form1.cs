@@ -11,7 +11,7 @@ using InitiativeEntryLibrary;
 
 namespace InitiativeTracker
 {
-    public partial class Form1 : Form
+    public partial class InitiativeTracker : Form
     {
         EntityContainer ec = new EntityContainer();
         int initHold;
@@ -28,7 +28,7 @@ namespace InitiativeTracker
         int combatantCount;
         int selector;
 
-        public Form1()
+        public InitiativeTracker()
         {
             InitializeComponent();
 
