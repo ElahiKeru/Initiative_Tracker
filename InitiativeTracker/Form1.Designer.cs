@@ -1,6 +1,6 @@
 ﻿namespace InitiativeTracker
 {
-    partial class Form1
+    partial class InitiativeTracker
     {
         /// <summary>
         /// Required designer variable.
@@ -60,6 +60,8 @@
             this.btnNextCombatant = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.lblCombInd = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.InitContainer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -339,11 +341,30 @@
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // Form1
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(682, 462);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(102, 13);
+            this.label12.TabIndex = 32;
+            this.label12.Text = "Combatant Indicator";
+            // 
+            // lblCombInd
+            // 
+            this.lblCombInd.AutoSize = true;
+            this.lblCombInd.Location = new System.Drawing.Point(791, 462);
+            this.lblCombInd.Name = "lblCombInd";
+            this.lblCombInd.Size = new System.Drawing.Size(0, 13);
+            this.lblCombInd.TabIndex = 33;
+            // 
+            // InitiativeTracker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1142, 493);
+            this.Controls.Add(this.lblCombInd);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.btnNextCombatant);
@@ -376,8 +397,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.InitContainer);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "InitiativeTracker";
+            this.Text = "Initiative Tracker";
             ((System.ComponentModel.ISupportInitialize)(this.InitContainer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -418,6 +439,8 @@
         private System.Windows.Forms.Button btnNextCombatant;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lblCombInd;
     }
 }
 

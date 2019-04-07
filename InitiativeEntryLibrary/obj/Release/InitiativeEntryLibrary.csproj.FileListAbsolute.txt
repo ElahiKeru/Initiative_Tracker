@@ -1,6 +1,0 @@
-F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\bin\Release\InitiativeEntryLibrary.dll
-F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\bin\Release\InitiativeEntryLibrary.pdb
-F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Release\InitiativeEntryLibrary.csprojAssemblyReference.cache
-F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Release\InitiativeEntryLibrary.csproj.CoreCompileInputs.cache
-F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Release\InitiativeEntryLibrary.dll
-F:\DevelopmentEnvironment\Initiative_Tracker\InitiativeEntryLibrary\obj\Release\InitiativeEntryLibrary.pdb

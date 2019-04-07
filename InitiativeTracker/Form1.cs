@@ -11,7 +11,7 @@ using InitiativeEntryLibrary;
 
 namespace InitiativeTracker
 {
-    public partial class Form1 : Form
+    public partial class InitiativeTracker : Form
     {
         EntityContainer ec = new EntityContainer();
         int initHold;
@@ -25,9 +25,10 @@ namespace InitiativeTracker
         int chaHold;
         int roundCount;
         int timeCount;
+        int combatantCount;
         int selector;
 
-        public Form1()
+        public InitiativeTracker()
         {
             InitializeComponent();
 
@@ -42,6 +43,8 @@ namespace InitiativeTracker
                                   acHold, strHold, dexHold,
                                   conHold, intHold, wisHold, chaHold));
                 ClearTexts();
+                combatantCount++;
+                lblCombInd.Text = $"{selector + 1}/{combatantCount}";
             }
         }
 
@@ -61,12 +64,13 @@ namespace InitiativeTracker
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            if (InitContainer.SelectedRows.Count > 0)
+            if (InitContainer?.CurrentCell != null)
             {
-                foreach (DataGridViewRow dr in InitContainer.SelectedRows)
-                {
-                    ec.Rows.Remove(((DataRowView)dr.DataBoundItem).Row);
-                }
+                int containerRow = InitContainer.CurrentCell.RowIndex;
+                ec.Rows.RemoveAt(containerRow);
+                combatantCount--;
+                if (containerRow < selector) selector--;
+                lblCombInd.Text = $"{selector + 1}/{combatantCount}";
             }
         }
 
@@ -125,6 +129,7 @@ namespace InitiativeTracker
 
                 lblRoundCount.Text = $"Round: {roundCount}";
                 lblTimeElapsed.Text = $"Time Elapsed: {TimeSpan.FromMinutes(timeCount / 60).Minutes:00}:{TimeSpan.FromSeconds(timeCount % 60).Seconds:00}";
+                lblCombInd.Text = $"{selector + 1}/{combatantCount}";
             }
         }
 
@@ -132,14 +137,15 @@ namespace InitiativeTracker
         {
             selector++;
 
-            if(selector > InitContainer.Rows.Count-1)
+            if(selector > combatantCount-1)
             {
-                selector -= InitContainer.Rows.Count;
+                selector -= combatantCount;
                 roundCount++;
                 timeCount += 6;
             }
             lblPresentCom.Text = InitContainer["Name", selector].Value.ToString();
             lblRoundCount.Text = $"Round: {roundCount}";
+            lblCombInd.Text = $"{selector+1}/{combatantCount}";
             lblTimeElapsed.Text = $"Time Elapsed: {TimeSpan.FromMinutes(timeCount/60).Minutes:00}:{TimeSpan.FromSeconds(timeCount%60).Seconds:00}";
         }
 
@@ -152,6 +158,7 @@ namespace InitiativeTracker
             lblPresentCom.Text = "(none)";
             lblRoundCount.Text = $"Round:";
             lblTimeElapsed.Text = $"Time Elapsed:";
+            lblCombInd.Text = "";
             ClearTexts();
         }
     }
