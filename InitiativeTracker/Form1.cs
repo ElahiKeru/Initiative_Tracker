@@ -67,7 +67,17 @@ namespace InitiativeTracker
             if (InitContainer?.CurrentCell != null)
             {
                 int containerRow = InitContainer.CurrentCell.RowIndex;
-                ec.Rows.RemoveAt(containerRow);
+
+                var thing = InitContainer.CurrentCell.OwningRow.Cells[0].Value;
+                foreach (DataRow dr in ec.Rows)
+                {
+                    if(dr[0].Equals(thing))
+                    {
+                        ec.Rows.Remove(dr);
+                        break;
+                    }
+                }
+
                 combatantCount--;
                 if (containerRow < selector) selector--;
                 lblCombInd.Text = $"{selector + 1}/{combatantCount}";
